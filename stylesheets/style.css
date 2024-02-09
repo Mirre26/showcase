@@ -14,6 +14,13 @@
     align-items: center;
 }
 
+.personalia-content_border {
+    border: 1px solid black;
+    padding: 30px;
+    display: inline-block;
+}
+
+
 .profile {
     background-color: #faf8f8;
     width: 100%;
@@ -33,6 +40,8 @@
     padding: 15px;
     font-size: 20px;
 }
+
+
 
 .profile-content__category-title {
     color: rgba(39, 140, 39, 0.96);
@@ -55,6 +64,13 @@
 
 .profile-content__title {
     font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 2px;
+    margin-top: 6px;
+}
+
+.profile-content__title_medium {
+    font-weight: medium;
     font-size: 18px;
     margin-bottom: 2px;
     margin-top: 6px;
