@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <title>CV Mirre Poulus</title>
     <link rel="stylesheet" href="stylesheets/style.css">
-    <script defer src="backend/js/gdpr.js"></script>
+    <script defer src="frontend/js/gdpr.js"></script>
+    <script defer src="frontend/js/app.js"></script>
+    <script defer src="frontend/js/captcha.js"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 
@@ -14,7 +16,7 @@
     <div class="overlay" id="overlay"></div>
 
     <div class="popup" id="popup">
-        <h2>Welcome to Our Website!</h2>
+        <h2>Welkom!!</h2>
         <p>Deze website gebruikt cookies.
             We gebruiken cookies om content te personaliseren, voor social media en het analyseren
             van verkeer op de website, advertenties.</p>
@@ -33,12 +35,12 @@
 
 
 
-    
+
 
     <div class="page">
         <section class="personalia">
 
-            <img class="person-logo" src="images/fotoMirre.jpg">
+            <img class="person-logo" src="frontend/images/fotoMirre.jpg">
             <h1 class="person-name">Mirre Poulus</h1>
             <br>
 
@@ -211,36 +213,61 @@
 
             <h1>Contact</h1>
 
-            <form action="" method="post" class="form-contactpagina">
+            <form method="post" class="form-contactpagina" id="contactForm">
+
+                <!-- Button to clear form -->
+                <div class="form-contactpagina__inputelement">
+                    <button type="button" id="clearFormButton">Clear Form</button>
+                </div>
+
 
                 <div class="form-contactpagina__inputelement fx-col">
-                    <label for="name">Naam: </label>
-                    <input type="text" name="name" id="name" required>
+                    <label for="firstname">Voornaam: </label>
+                    <input type="text" name="firstname" id="firstname" required maxlength="20">
+                </div>
+
+                <div class="form-contactpagina__inputelement fx-col">
+                    <label for="lastname">Achternaam: </label>
+                    <input type="text" name="lastname" id="lastname" required maxlength="20">
+                </div>
+
+                <div class="form-contactpagina__inputelement fx-col">
+                    <label for="phonenumber">Telefoonnummer: </label>
+                    <input type="text" name="phonenumber" id="phonenumber" required minlength="10" maxlength="20"
+                        pattern="[0-9]+">
+                    <small>Alleen cijfers toegestaan.</small>
+                </div>
+
+                <div class="form-contactpagina__inputelement fx-col">
+                    <label for="subject">Onderwerp: </label>
+                    <textarea style= "resize: none;" name="subject" id="subject" rows="2" required maxlength="200"></textarea>
                 </div>
 
                 <div class="form-contactpagina__inputelement fx-col">
                     <label for="email">Email: </label>
-                    <input type="email" name="email" id="email">
-                </div>
-
-                <div class="form-contactpagina__inputelement">
-                    <fieldset>
-                        <legend>Wil je onze nieuwsbrief ontvangen?</legend>
-                        <label><input type="radio" name="newsletter" value="yes" checked /> Ja, graag!</label>
-                        <label><input type="radio" name="newsletter" value="no" /> Nee, een andere keer</label>
-                    </fieldset>
+                    <input type="email" name="email" id="email" required minlength="8" maxlength="80">
+                    <span class="error" aria-live="polite"></span>
                 </div>
 
                 <div class="form-contactpagina__inputelement fx-col">
-                    <label for="call-date">Op welke dag kunnen we bellen? </label>
-                    <input name="call-date" type="date" id="call-date">
+                    <label for="content">Bericht: </label>
+                    <textarea style= "resize: none;" name="content" id="content" rows="5" required maxlength="600"></textarea>
                 </div>
 
+
+
+                <div id="captcha"></div>
+                <input type="text" id="userInput" placeholder="Enter CAPTCHA" required maxlength="20">
+
+
+                <div class="loader" id="loader">
+                </div>
+                
                 <div class="form-contactpagina__inputelement">
                     <input type="submit" value="Verstuur!">
                 </div>
 
-                /*student uitwerking*/
+               
 
 
             </form>
