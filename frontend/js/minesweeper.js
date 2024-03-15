@@ -61,6 +61,7 @@ function cellClicked(row, col) {
         } else
             if (board[row][col].isMine) {
                 revealAllMines();
+                stopTimer();
                 alert("Game Over!");
                 gameOver = true;
             } else {
@@ -150,6 +151,7 @@ function checkWinCondition() {
                 if (board[i][j].isMine && board[i][j].hasFlag) {
                     flagCount++;
                     if (flagCount == numMines) {
+                        stopTimer();
                         alert("You won!");
                         gameOver = true;
                         return;

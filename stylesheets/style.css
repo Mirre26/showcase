@@ -56,6 +56,14 @@ body {
     transform: translateX(-50%);
     font-family: inherit;
 }
+#timer {
+font-size: 30px;
+color:aliceblue;
+background-color: #727272;
+margin-top: 100px; 
+padding: 10px 20px;
+display: none;
+}
 
 /* Start button styling */
 #startButton {
