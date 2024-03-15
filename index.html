@@ -3,279 +3,34 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>CV Mirre Poulus</title>
+    <title>Minesweeper</title>
     <link rel="stylesheet" href="stylesheets/style.css">
-    <script defer src="frontend/js/gdpr.js"></script>
-    <script defer src="frontend/js/app.js"></script>
-    <script defer src="frontend/js/captcha.js"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="frontend/js/minesweeper.js"></script>
+    <script src="frontend/js/startbutton.js"></script>
 </head>
 
 <body>
-
-    <div class="overlay" id="overlay"></div>
-
-    <div class="popup" id="popup">
-        <h2>Welkom!!</h2>
-        <p>Deze website gebruikt cookies.
-            We gebruiken cookies om content te personaliseren, voor social media en het analyseren
-            van verkeer op de website, advertenties.</p>
-        <div class="gdpr-consent__choice">
-            <button class="gdpr-consent__button--accept">Ja, natuurlijk</button>
-            <button class="gdpr-consent__button--reject">Nee dankje</button>
+    <div class="navbar">
+        <div class="left-tabs">
+            <a href="#" class="tab">Home</a>
+            <a href="#" class="tab">Game</a>
+        </div>
+        <div class="right-tabs">
+            <a href="#" class="tab">Login</a>
         </div>
     </div>
 
-    <div class="popup" id="choicePopup" style="display: none;">
-        <h4>Uw keuze:</h4>
-        <p id="userChoiceMessage"></p>
-        <button class="gdpr-okbutton" onclick="gdpr.closeChoicePopup()">OK</button>
+   
+    <div class="container">
+        <h1 id="title">Minesweeper</h1>
     </div>
-
-
-
-
-
-
-    <div class="page">
-        <section class="personalia">
-
-            <img class="person-logo" src="frontend/images/fotoMirre.jpg">
-            <h1 class="person-name">Mirre Poulus</h1>
-            <br>
-
-            <h3>Personalia</h3>
-            <ul class="personalia-content_border" style="list-style-type: square">
-                <li class="profile-content__title_medium">testmail@gmail.com</li>
-                <li class="profile-content__title_medium">06-12345678</li>
-                <li class="profile-content__title_medium">Vledderweg 40, 8381AE Vledder</li>
-                <li class="profile-content__title_medium"><a href="https://www.linkedin.com/in/mirre-poulus/"
-                        target="_blank">LinkedIn</a></li>
-            </ul>
-
-            <button class="btn" onclick="gdpr.scrollToContact()">Contact Me</button>
-
-        </section>
-
-
-
-
-
-
-        <section class="profile">
-
-            <section class="profile-content">
-
-                <!-- <div class="profile-content__category--hidden-mobile"> -->
-                <h3 class="profile-content__category-title">Profiel</h3>
-                <hr>
-                <!-- </div> -->
-
-                <!-- <div class="profile-content__element--hidden-mobile"> -->
-                <div class="profile-content__element-header">
-                </div>
-                <p class="profile-content__description">
-                    Als gepassioneerde software engineer in opleiding ben ik voortdurend bezig met het verkennen en
-                    creëren van innovatieve oplossingen.
-                    Ook ben ik altijd op zoek naar nieuwe uitdagingen om mijn capaciteiten te verbeteren en te groeien
-                    als professional.
-                <p>
-                    <!-- </div> -->
-
-
-                <div class="profile-content__category">
-                    <h3 class="profile-content__category-title">Opleidingen</h3>
-                    <hr>
-                </div>
-
-                <div class="profile-content__element">
-                    <div class="profile-content__element-header">
-                        <h4 class="profile-content__title">HBO-ICT</h4>
-                        <p class="profile-content__period">sep 2022 - jun 2025</p>
-                    </div>
-                    <p class="profile-content__institute">Hogeschool Windesheim, Zwolle</p>
-                </div>
-
-                <div class="profile-content__element">
-                    <div class="profile-content__element-header">
-                        <h4 class="profile-content__title">Rechtsgeleerdheid</h4>
-                        <p class="profile-content__period">sep 2020 - jun 2022</p>
-                    </div>
-                    <p class="profile-content__institute">Universiteit Utrecht, Utrecht</p>
-                </div>
-
-                <div class="profile-content__element">
-                    <div class="profile-content__element-header">
-                        <h4 class="profile-content__title">Orientaalse Talen en Communicatie</h4>
-                        <p class="profile-content__period">sep 2017 - jun 2018</p>
-                    </div>
-                    <p class="profile-content__institute">Hogeschool Zuyd, Maastricht</p>
-                </div>
-
-                <div class="profile-content__element">
-                    <div class="profile-content__element-header">
-                        <h4 class="profile-content__title">Havo diploma</h4>
-                        <p class="profile-content__period">sep 2011 - jun 2017</p>
-                    </div>
-                    <p class="profile-content__institute">RSG Trompmeesters, Steenwijk</p>
-                </div>
-
-                <div class="profile-content__category">
-                    <h3 class="profile-content__category-title">Werkervaring</h3>
-                    <hr>
-                </div>
-
-                <div class="profile-content__element">
-                    <div class="profile-content__element-header">
-                        <h4 class="profile-content__title">Bedieningsmedewerker</h4>
-                        <p class="profile-content__period">jun 2016 - heden</p>
-                    </div>
-                    <p class="profile-content__institute">China Garden, Vledder</p>
-                </div>
-
-                <div class="profile-content__element">
-                    <div class="profile-content__element-header">
-                        <h4 class="profile-content__title">Kassamedewerker</h4>
-                        <p class="profile-content__period">feb 2022 - jun 2022</p>
-                    </div>
-                    <p class="profile-content__institute">Lidl, Steenwijk</p>
-                </div>
-
-                <div class="profile-content__category">
-                    <h3 class="profile-content__category-title">Vaardigheden</h3>
-                    <hr>
-                </div>
-
-                <ul>
-                    <li>
-                        <h4 class="profile-content__title">C#</h4>
-                    </li>
-                    <li>
-                        <h4 class="profile-content__title">Scrum</h4>
-                    </li>
-                    <li>
-                        <h4 class="profile-content__title">Java</h4>
-                    </li>
-                    <li>
-                        <h4 class="profile-content__title">PHP</h4>
-                    </li>
-                    <li>
-                        <h4 class="profile-content__title">SQL</h4>
-                    </li>
-                    <li>
-                        <h4 class="profile-content__title">Html/css</h4>
-                    </li>
-                </ul>
-
-                <div class="profile-content__category">
-                    <h3 class="profile-content__category-title">Talen</h3>
-                    <hr>
-                </div>
-
-                <ul>
-                    <li>
-                        <h4 class="profile-content__title">Nederlands</h4>
-                    </li>
-                    <li>
-                        <h4 class="profile-content__title">Engels</h4>
-                    </li>
-                </ul>
-
-                <div class="profile-content__category">
-                    <h3 class="profile-content__category-title">Eigenschappen</h3>
-                    <hr>
-                </div>
-
-                <ul>
-                    <li>
-                        <h4 class="profile-content__title">Geduldig</h4>
-                    </li>
-                    <li>
-                        <h4 class="profile-content__title">Probleemoplossend denkvermogen</h4>
-                    </li>
-                    <li>
-                        <h4 class="profile-content__title">Sociaal vaardig</h4>
-                    </li>
-                    <li>
-                        <h4 class="profile-content__title">Georganiseerd</h4>
-                    </li>
-                </ul>
-
-            </section>
-
-        </section>
+    <div class="container">
+        <button id="startButton">Start New Game</button>
+        <div id="displayboard"></div>
     </div>
-
-
-
-    <div class="page">
-        <section id="contact" class="contact">
-
-            <h1>Contact</h1>
-
-            <form method="post" class="form-contactpagina" id="contactForm">
-
-                <!-- Button to clear form -->
-                <div class="form-contactpagina__inputelement">
-                    <button type="button" id="clearFormButton">Clear Form</button>
-                </div>
-
-
-                <div class="form-contactpagina__inputelement fx-col">
-                    <label for="firstname">Voornaam: </label>
-                    <input type="text" name="firstname" id="firstname" required maxlength="20">
-                </div>
-
-                <div class="form-contactpagina__inputelement fx-col">
-                    <label for="lastname">Achternaam: </label>
-                    <input type="text" name="lastname" id="lastname" required maxlength="20">
-                </div>
-
-                <div class="form-contactpagina__inputelement fx-col">
-                    <label for="phonenumber">Telefoonnummer: </label>
-                    <input type="text" name="phonenumber" id="phonenumber" required minlength="10" maxlength="20"
-                        pattern="[0-9]+">
-                    <small>Alleen cijfers toegestaan.</small>
-                </div>
-
-                <div class="form-contactpagina__inputelement fx-col">
-                    <label for="subject">Onderwerp: </label>
-                    <textarea style= "resize: none;" name="subject" id="subject" rows="2" required maxlength="200"></textarea>
-                </div>
-
-                <div class="form-contactpagina__inputelement fx-col">
-                    <label for="email">Email: </label>
-                    <input type="email" name="email" id="email" required minlength="8" maxlength="80">
-                    <span class="error" aria-live="polite"></span>
-                </div>
-
-                <div class="form-contactpagina__inputelement fx-col">
-                    <label for="content">Bericht: </label>
-                    <textarea style= "resize: none;" name="content" id="content" rows="5" required maxlength="600"></textarea>
-                </div>
-
-
-
-                <div id="captcha"></div>
-                <input type="text" id="userInput" placeholder="Enter CAPTCHA" required maxlength="20">
-
-
-                <div class="loader" id="loader">
-                </div>
-                
-                <div class="form-contactpagina__inputelement">
-                    <input type="submit" value="Verstuur!">
-                </div>
-
-               
-
-
-            </form>
-
-
-        </section>
     </div>
-
+    
 </body>
 
 </html>

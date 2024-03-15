@@ -38,5 +38,5 @@
                     }
 
                     // Display the CAPTCHA when the page loads
-                    displayCaptcha();
+                    // displayCaptcha();
         
