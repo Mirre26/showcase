@@ -57,7 +57,6 @@ function cellClicked(row, col) {
     if (!board[row][col].revealed && !gameOver) {
         if (board[row][col].hasFlag) {
             // If cell has a flag, decrement the flagsPlaced counter
-            flagsPlaced--;
             return;
         } else
             if (board[row][col].isMine) {
@@ -90,6 +89,7 @@ function revealCell(row, col) {
         for (let i = row - 1; i <= row + 1; i++) {
             for (let j = col - 1; j <= col + 1; j++) {
                 if (i >= 0 && i < numRows && j >= 0 && j < numCols && !(i === row && j === col)) {
+                    if (!board[i][j].hasFlag)
                     revealCell(i, j);
                 }
             }
@@ -126,6 +126,7 @@ function displayFlag(row, col) {
             // Remove flag if already placed
             cellElement.removeChild(cellElement.querySelector('img'));
             board[row][col].hasFlag = false;
+            flagsPlaced--;
         } else if (flagsPlaced !== numMines) {
             // Place flag if not already placed
             const flagImg = document.createElement('img');
@@ -144,13 +145,17 @@ function checkWinCondition() {
     if (flagsPlaced === numMines) {
         // Check if all flags are placed on mine cells
         let allFlagsOnMines = false;
+        const flagCount = 0;
         for (let i = 0; i < numRows; i++) {
             for (let j = 0; j < numCols; j++) {
                 if (board[i][j].isMine && board[i][j].hasFlag) {
-                    allFlagsOnMines = true;
-                    alert("You won!");
-                    gameOver = true;
-                    return;
+                    flagCount++;
+                    if (flagCount === numMines) {
+                        alert("You won!");
+                        gameOver = true;
+                        return;
+                    }
+                    
                 }
             }
         }
