@@ -144,13 +144,12 @@ function displayFlag(row, col) {
 function checkWinCondition() {
     if (flagsPlaced === numMines) {
         // Check if all flags are placed on mine cells
-        let allFlagsOnMines = false;
-        const flagCount = 0;
+        let flagCount = 0;
         for (let i = 0; i < numRows; i++) {
             for (let j = 0; j < numCols; j++) {
                 if (board[i][j].isMine && board[i][j].hasFlag) {
                     flagCount++;
-                    if (flagCount === numMines) {
+                    if (flagCount == numMines) {
                         alert("You won!");
                         gameOver = true;
                         return;
