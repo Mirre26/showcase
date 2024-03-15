@@ -1,6 +1,6 @@
 const numRows = 10;
 const numCols = 10;
-const numMines = 4;
+const numMines = 14;
 
 document.addEventListener("DOMContentLoaded", function() {
     const startButton = document.getElementById("startButton");
