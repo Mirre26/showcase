@@ -7,31 +7,36 @@
     <link rel="stylesheet" href="stylesheets/style.css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <script src="frontend/js/minesweeper.js"></script>
-    <script src="frontend/js/startbutton.js"></script>
+    <!-- <script src="frontend/js/startbutton.js"></script> -->
+    <script src="frontend/js/login.js"></script>
 </head>
 
 <body>
     <div class="navbar">
         <div class="left-tabs">
             <a href="#" class="tab">Home</a>
-            <a href="#" class="tab">Game</a>
+            <a href="#" class="tab" id="gameLink">Game</a>
         </div>
         <div class="right-tabs">
-            <a href="#" class="tab">Login</a>
+            <a href="#" class="tab" id="loginLink">Login</a>
         </div>
     </div>
 
-   
-    <div class="container">
+    <div id="gamePage" style="display: none;">
         <h1 id="title">Minesweeper</h1>
-        <div id="timer">00:00</div>
+
+        <div class="container">
+            <div id="timer">00:00</div>
+        </div>
+
+        <div class="container">
+            <button id="startButton">Start New Game</button>
+            <div id="displayboard"></div>
+        </div>
     </div>
-    <div class="container">
-        <button id="startButton">Start New Game</button>
-        <div id="displayboard"></div>
-    </div>
-    </div>
-    
+
+
+
 </body>
 
 </html>

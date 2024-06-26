@@ -24,7 +24,7 @@
 .tab {
     padding: 10px;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 154, 129);
 }
 
 .tab:hover {
@@ -32,7 +32,7 @@
 }
 
 /* Body styling */
-body {
+body, #gamepage {
     display: flex;
     flex-direction: column; /* Ensure content stacks vertically */
     background-color: rgb(250, 241, 228);
@@ -42,27 +42,53 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
+
+
 .container {
     position: relative;
-    margin-top: 20px; 
-    margin-bottom: 60px;
+    margin-top: 30px; 
+    margin-bottom: 20px;
 }
+#loginPage {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+#loginForm label {
+    margin-bottom: 5px; /* Adjust as needed */
+}
+
+
+#loginForm input, #loginForm button {
+    margin-bottom: 30px; /* Adjust as needed */
+    font-size: 20px;
+}
+
 
 
 /* Title styling */
 #title {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
     font-family: inherit;
+    margin-bottom: 20px; /* Add margin to bottom */
 }
 #timer {
 font-size: 30px;
 color:aliceblue;
 background-color: #727272;
-margin-top: 100px; 
 padding: 10px 20px;
 display: none;
+position: relative; 
+margin-top: 40px; 
 }
 
 /* Start button styling */
@@ -73,7 +99,7 @@ display: none;
     padding: 10px 20px;
     border-radius: 15px;
     border-color: rgb(175, 175, 175);
-    margin-top: 20px; /* Add some top margin */
+    
 }
 
 /* Display board styling */

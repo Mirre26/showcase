@@ -33,6 +33,9 @@ function startTimer() {
 
 function stopTimer() {
     clearInterval(timerInterval);
+    timer.style.backgroundColor= "#4d0606";
+    timer.style.color = "salmon";
+
 }
 
 function formatTime(time) {
