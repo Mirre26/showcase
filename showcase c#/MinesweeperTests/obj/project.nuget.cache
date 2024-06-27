@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y2bDWGQQnjt69c+j0isczxpEYXK+cxLGUQlWGOfeKeHOdiR7afrKvVr7OKIBq0i5bbKHnaAFT6G8BzkgZ9VZxQ==",
+  "dgSpecHash": "N20XL0OsNknzGC4hGiH8OHbpLI32iEbzJgcyNZUu3/fQXWJ/tCjiSDO7/S8Jz9tJqPQzCURBz2b9uCEBBXtJpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\626po\\source\\repos\\showcase deploy\\showcase c#\\MinesweeperTests\\MinesweeperTests.csproj",
+  "projectFilePath": "C:\\Users\\626po\\source\\repos\\showcase git\\showcase c#\\MinesweeperTests\\MinesweeperTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\626po\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\626po\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

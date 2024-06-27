@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\626po\\source\\repos\\showcase deploy\\showcase c#\\MinesweeperTests\\MinesweeperTests.csproj": {}
+    "C:\\Users\\626po\\source\\repos\\showcase git\\showcase c#\\MinesweeperTests\\MinesweeperTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\626po\\source\\repos\\showcase deploy\\showcase c#\\MinesweeperTests\\MinesweeperTests.csproj": {
+    "C:\\Users\\626po\\source\\repos\\showcase git\\showcase c#\\MinesweeperTests\\MinesweeperTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\626po\\source\\repos\\showcase deploy\\showcase c#\\MinesweeperTests\\MinesweeperTests.csproj",
+        "projectUniqueName": "C:\\Users\\626po\\source\\repos\\showcase git\\showcase c#\\MinesweeperTests\\MinesweeperTests.csproj",
         "projectName": "MinesweeperTests",
-        "projectPath": "C:\\Users\\626po\\source\\repos\\showcase deploy\\showcase c#\\MinesweeperTests\\MinesweeperTests.csproj",
+        "projectPath": "C:\\Users\\626po\\source\\repos\\showcase git\\showcase c#\\MinesweeperTests\\MinesweeperTests.csproj",
         "packagesPath": "C:\\Users\\626po\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\626po\\source\\repos\\showcase deploy\\showcase c#\\MinesweeperTests\\obj\\",
+        "outputPath": "C:\\Users\\626po\\source\\repos\\showcase git\\showcase c#\\MinesweeperTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\626po\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\626po\\source\\repos\\showcase deploy\\showcase c#\\Showcase mvc\\Showcase mvc.csproj": {
-                "projectPath": "C:\\Users\\626po\\source\\repos\\showcase deploy\\showcase c#\\Showcase mvc\\Showcase mvc.csproj"
+              "C:\\Users\\626po\\source\\repos\\showcase git\\showcase c#\\Showcase mvc\\Showcase mvc.csproj": {
+                "projectPath": "C:\\Users\\626po\\source\\repos\\showcase git\\showcase c#\\Showcase mvc\\Showcase mvc.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\626po\\source\\repos\\showcase deploy\\showcase c#\\Showcase mvc\\Showcase mvc.csproj": {
+    "C:\\Users\\626po\\source\\repos\\showcase git\\showcase c#\\Showcase mvc\\Showcase mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\626po\\source\\repos\\showcase deploy\\showcase c#\\Showcase mvc\\Showcase mvc.csproj",
+        "projectUniqueName": "C:\\Users\\626po\\source\\repos\\showcase git\\showcase c#\\Showcase mvc\\Showcase mvc.csproj",
         "projectName": "Showcase mvc",
-        "projectPath": "C:\\Users\\626po\\source\\repos\\showcase deploy\\showcase c#\\Showcase mvc\\Showcase mvc.csproj",
+        "projectPath": "C:\\Users\\626po\\source\\repos\\showcase git\\showcase c#\\Showcase mvc\\Showcase mvc.csproj",
         "packagesPath": "C:\\Users\\626po\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\626po\\source\\repos\\showcase deploy\\showcase c#\\Showcase mvc\\obj\\",
+        "outputPath": "C:\\Users\\626po\\source\\repos\\showcase git\\showcase c#\\Showcase mvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\626po\\AppData\\Roaming\\NuGet\\NuGet.Config",

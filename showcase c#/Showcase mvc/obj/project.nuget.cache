@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5SqdcOEzu9e7G9lNfChbzDfGWAA0hea70M+Oi4gPPPaW8nH5tHY1dPtt7jpJvSYRjZxJ/clZ1ocL5SBNUov6EQ==",
+  "dgSpecHash": "WG0EGYSKvDbirXUWr7ri3AqNR58gwG1oGmyBbwOdwz4UMZB7Iof5Wnnxy7onyVtcjLrQXgwqBpqfOLW32laEGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\626po\\source\\repos\\showcase deploy\\showcase c#\\Showcase mvc\\Showcase mvc.csproj",
+  "projectFilePath": "C:\\Users\\626po\\source\\repos\\showcase git\\showcase c#\\Showcase mvc\\Showcase mvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\626po\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\626po\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

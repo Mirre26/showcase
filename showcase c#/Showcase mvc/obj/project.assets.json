@@ -5733,11 +5733,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\626po\\source\\repos\\showcase deploy\\showcase c#\\Showcase mvc\\Showcase mvc.csproj",
+      "projectUniqueName": "C:\\Users\\626po\\source\\repos\\showcase git\\showcase c#\\Showcase mvc\\Showcase mvc.csproj",
       "projectName": "Showcase mvc",
-      "projectPath": "C:\\Users\\626po\\source\\repos\\showcase deploy\\showcase c#\\Showcase mvc\\Showcase mvc.csproj",
+      "projectPath": "C:\\Users\\626po\\source\\repos\\showcase git\\showcase c#\\Showcase mvc\\Showcase mvc.csproj",
       "packagesPath": "C:\\Users\\626po\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\626po\\source\\repos\\showcase deploy\\showcase c#\\Showcase mvc\\obj\\",
+      "outputPath": "C:\\Users\\626po\\source\\repos\\showcase git\\showcase c#\\Showcase mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\626po\\AppData\\Roaming\\NuGet\\NuGet.Config",
