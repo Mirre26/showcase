@@ -25,7 +25,7 @@ namespace Showcase_mvc.Data.Entities
                 context.Highscores.Remove(lowestHighscore);
                 if (newHighscore != lowestHighscore)
                 {
-                    context.SaveChanges();
+                    return;
                 }
             } else
             {

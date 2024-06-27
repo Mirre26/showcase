@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Showcase mvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa9c5338ace1f43b154b388c987b87e89234da67")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f8131bf640a8d7d846ae1e5d43101577d55a76d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Showcase mvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Showcase mvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
